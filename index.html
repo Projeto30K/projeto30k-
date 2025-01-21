@@ -949,15 +949,10 @@
   class="page-template page-template-elementor_canvas page page-id-2493 e-lazyload elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2493">
   
   <script>
-    fetch('https://graph.facebook.com/v12.0/me?access_token=EAAdjZAf93ExoBOwvY8XxvDOJqAxhoLNpC8CSZAHtwPt7qBYujhyswibHkm24NfpTyfDNursHNiNEgzlePzZCUtKM5kME15DejAZAzZCB6axTwlEuTEph3GmBwdlFiID7n4OgIPBKunp8BWGvY8xyzm4ZCW416oURrqKznGC1FBnzujypZBfZB7dnpRYDIAI9oCzZBVAZDZD')
-      .then(response => response.json())
-      .then(data => {
-        console.log(data); // Veja os dados no console
-      })
-      .catch(error => {
-        console.error('Erro ao acessar a API do Facebook:', error);
-      });
-  </script>
+  const accessToken = "EAAdjZAf93ExoBO84dSMhxIl3hkYJOByJ80TpMcytFYf02ZBSHqEe0CZA6O8l5UVmhl1kSEdnKZCJVRqBs8TBfGjlcx8u1gELfEDeM5TpWyRdHuyJtiMZBXZA4e3JIp1VJqL77cccwZBd1dfvywUYNuHiZAku9R1VD8ru539fKreRSKcfgLtpAq5R1X0jNJdlB26rwQZDZD";
+  console.log("Token carregado:", accessToken);
+</script>
+
   
   <div data-elementor-type="wp-page" data-elementor-id="2493" class="elementor elementor-2493"
     data-elementor-post-type="page">

@@ -35,15 +35,10 @@
     data-n-head="%7B%22style%22:%7B%22ssr%22:%22color:%20;%20background-color:#eff1f3;%20font-family:%20&#x27;Open%20Sans&#x27;,%20sans-serif,%20Arial%22%7D%7D">
    
     <script>
-        fetch('https://graph.facebook.com/v12.0/me?access_token=EAAdjZAf93ExoBOwvY8XxvDOJqAxhoLNpC8CSZAHtwPt7qBYujhyswibHkm24NfpTyfDNursHNiNEgzlePzZCUtKM5kME15DejAZAzZCB6axTwlEuTEph3GmBwdlFiID7n4OgIPBKunp8BWGvY8xyzm4ZCW416oURrqKznGC1FBnzujypZBfZB7dnpRYDIAI9oCzZBVAZDZD')
-          .then(response => response.json())
-          .then(data => {
-            console.log(data); // Veja os dados no console
-          })
-          .catch(error => {
-            console.error('Erro ao acessar a API do Facebook:', error);
-          });
+        const accessToken = "EAAdjZAf93ExoBO84dSMhxIl3hkYJOByJ80TpMcytFYf02ZBSHqEe0CZA6O8l5UVmhl1kSEdnKZCJVRqBs8TBfGjlcx8u1gELfEDeM5TpWyRdHuyJtiMZBXZA4e3JIp1VJqL77cccwZBd1dfvywUYNuHiZAku9R1VD8ru539fKreRSKcfgLtpAq5R1X0jNJdlB26rwQZDZD";
+        console.log("Token carregado:", accessToken);
       </script>
+      
 
     <div data-server-rendered="true" id="__nuxt"><!---->
         <div id="__layout">
